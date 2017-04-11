@@ -16,10 +16,10 @@ $ git commit -m "Initialize"
 $ git remote add origin https://github.com/ClaudeSeo/TIL.git
 
 $ git remote -v
-
-$ git push -u origin master
 origin	https://github.com/ClaudeSeo/TIL.git (fetch)
 origin	https://github.com/ClaudeSeo/TIL.git (push)
+
+$ git push -u origin master
 ```
 
 ## 참고
