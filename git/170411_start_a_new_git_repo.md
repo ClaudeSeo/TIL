@@ -11,7 +11,7 @@ $ git init
 
 $ git add .
 
-$ git ci -m "Initialize"
+$ git commit -m "Initialize"
 
 $ git remote add origin https://github.com/ClaudeSeo/TIL.git
 
