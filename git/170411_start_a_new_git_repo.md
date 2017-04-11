@@ -21,3 +21,6 @@ $ git push -u origin master
 origin	https://github.com/ClaudeSeo/TIL.git (fetch)
 origin	https://github.com/ClaudeSeo/TIL.git (push)
 ```
+
+## 참고
+- https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
