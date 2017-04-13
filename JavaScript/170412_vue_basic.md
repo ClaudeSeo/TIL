@@ -1,9 +1,9 @@
 # Vue.js
-흔히 MVC 패턴에서 View만 담당하는 프레임워크이다
+흔히 알려진 MVC 패턴에서 View만 담당하는 프레임워크이다
 
 ## 설치
 - 설치 방법은 CDN, NPM, Bower, AMD 모듈 로더 등이 있지만, 나는 NPM만 사용할것이다
-- vue만 별도로 설치하여 프로젝트를 셋팅하는 방법이 있지만 `vue-cli` 라는 아주 훌륭한 툴을 제공하고 있으니 이를 통해 프로젝트를 셋팅
+- vue만 별도로 설치하여 프로젝트를 셋팅하는 방법이 있지만 `vue-cli` 라는 아주 훌륭한 툴을 제공하고 있으니 이를 통해 프로젝트를 셋팅한다
 ```
 $ npm install vue-cli -g
 $ vue init webpack <proejct-name>
