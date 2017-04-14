@@ -1,5 +1,5 @@
 # forEach and some
-JavaScript 에서도 컬렉션의 요소를 반복문인 forEach문이 존재한다. 사용법은 간단하다
+JavaScript 에서도 컬렉션의 요소를 반복할 수 있는 forEach 문이 존재한다. 사용법은 간단하다
 
 ```javascript
 [1,2,3,4,5].forEach(function (v) {
@@ -37,7 +37,7 @@ try {
 ```
 
 이를 대신해서 사용할 수 있는 함수가 바로 `some()` 이다.
-`some()` 함수는 컬렉션 요소 중 1개라도 조건을 만족하는 즉시 반복을 중단한다.
+`some()` 함수는 반복하는 도중 `true` 값이 반환되면 반복을 중단한다.
 
 ```javascript
 [1,2,3,4,5].some(function (v) {
