@@ -20,7 +20,7 @@ request('http://naver.com', (error1, resp1, body1) => {
 })
 ```
 
-당장 위의 코드만 봐도 굉장히 답답함을 느낄 수 있다. 이러한 문제들을 해결하기 위해 많은 움직임들이 있었고, 2014년 차기 ES6 자바스크립트 규격에 `Promises/A+`` 스펙이 확정되면서 어느정도 해결되었다
+당장 위의 코드만 봐도 굉장히 답답함을 느낄 수 있다. 이러한 문제들을 해결하기 위해 많은 움직임들이 있었고, 2014년 차기 ES6 자바스크립트 규격에 `Promises/A+` 스펙이 확정되면서 어느정도 해결되었다
 
 ```javascript
 Promise.all([
@@ -56,4 +56,4 @@ doComplicateJob().then(success, error)
 
 ## 참고
 - http://tc39.github.io/ecmascript-asyncawait/
-- http://blog.naver.com/PostView.nhn?blogId=bitofsky&logNo=220850909832&categoryNo=0&parentCategoryNo=53&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView
+- [Javascript 비동기 Callback, Promise, Async/Await](http://blog.naver.com/PostView.nhn?blogId=bitofsky&logNo=220850909832&categoryNo=0&parentCategoryNo=53&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView)
