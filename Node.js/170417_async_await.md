@@ -54,4 +54,6 @@ doComplicateJob().then(success, error)
 
 이전에 10중 **Callback Hell**을 맛보고 나서, 어떻게 해야 깔끔하게 작성할 수 있을까 고민하고 있었는데 `Promise` 와 `async/await`를 사용해보니 이전에 비해 훨씬 깔끔하게 작성할 수 있게 되었다.
 
-
+## 참고
+- http://tc39.github.io/ecmascript-asyncawait/
+- http://blog.naver.com/PostView.nhn?blogId=bitofsky&logNo=220850909832&categoryNo=0&parentCategoryNo=53&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView
