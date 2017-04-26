@@ -61,6 +61,11 @@ new Vue({
 </script>
 ```
 
+## 라이브러리
+이선협님이 만드신 [`vue-ime-model`](https://github.com/kciter/vue-ime-model) 라이브러리를 사용하면 된다.
+
+~~직접 플러그인으로 만들어서 배포를 하기 직전에 발견했다고 한다~~
+
 ## 참고
 - [Vuejs 폼 입력 바인딩 기본 사용법](https://kr.vuejs.org/v2/guide/forms.html#기본-사용법)
 - [@input 을 사용한 해결 방법](https://jsfiddle.net/kciter/tLz9gt4o/)
