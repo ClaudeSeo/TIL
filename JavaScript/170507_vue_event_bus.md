@@ -7,7 +7,7 @@
 
 데이터를 받을 컴포넌트에서 이벤트를 청취(on) 하고 있으면, 다른 컴포넌트가 이벤트를 발생(emit) 시킬 때 전송하는 데이터를 받아서 로직을 수행한다
 
-```vue
+```javascript
 // 이벤트 버스 생성
 let EventBus = new Vue()
 
@@ -21,7 +21,7 @@ EventBus.$emit('my-event', '뾰로롱뾰롱 뾰로로롱')
 ```
         
 ## 예제
-```vue
+```html
 <div id="sender-app">
   <input type="text" v-model="text">
   <button @click.prevent="sendMessage">전송</button>
@@ -34,7 +34,7 @@ EventBus.$emit('my-event', '뾰로롱뾰롱 뾰로로롱')
 </div>
 ```
 
-```javascript
+```javascript 
 let EventBus = new Vue()
 
 let SenderApp = new Vue({
