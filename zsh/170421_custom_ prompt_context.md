@@ -9,7 +9,7 @@ $ cp ~/.oh-my-zsh/themes/agnoster.zsh-theme ~/.oh-my-zsh/custom/
 $ vim ~/.oh-my-zsh/custom/agnoster.zsh-theme
 ```
 
-- propt_context 를 찾아서 아래의 코드로 변경한다
+- prompt_context 를 찾아서 아래의 코드로 변경한다
 ```
 prompt_context() {
   if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
