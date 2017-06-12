@@ -45,9 +45,7 @@ $ npm run dev
 
 
 ## 맛보기
-```
-// Main.vue
-
+```vue
 <template>
     <div class="container">
         <p>Hello {{ name }}</p>
