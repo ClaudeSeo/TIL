@@ -167,4 +167,66 @@ priceInThousands =
 ```
 ![practice 4](img/170902_practice_4.jpg)
 
+```Octave
+# Plotting 3D vectors
+❯❯ vec1=quiver3(0,0,0,1,0,1); hold on;
+❯❯ vec2=quiver3(0,0,0,0,1,1); hold on;
+❯❯ set(vec1,'LineWidth',3)
+❯❯ set(vec2,'LineWidth',3)
+❯❯ axis equal
+```
+![practice 5](img/170902_practice_5.jpg)
+
+```Octave
+# Drawing the unit vectors, i, j, k
+# Unit vector i
+❯❯ vec1=quiver3(0,0,0,1,0,0)
+vec1 = -35.275
+# Unit vector j
+❯❯ vec2=quiver3(0,0,0,0,1,0)
+vec2 = -39.990
+# Unit vector k
+❯❯ vec3=quiver3(0,0,0,0,0,1)
+vec3 = -43.451
+❯❯ axis equal
+❯❯ axis equal
+❯❯ set(vec3,'LineWidth',3)
+❯❯ set(vec2,'LineWidth',3)
+❯❯ set(vec1,'LineWidth',3)
+```
+![practice 6](img/170902_practice_6.jpg)
+
+```
+# Draw vector from <1,0,3> to <-1,1,0>
+❯❯ function addVector(x,y,z)
+> quiver3(0,0,0,x,y,z); hold on;
+> end
+❯❯ addVector(-1,1,0); addVector(1,0,3);
+❯❯ vecDiff=quiver3(1,0,3,-2,1,-3); hold on;
+❯❯ set(vecDiff,'LineWidth',3)
+❯❯ axis equal
+```
+![practice 7](img/170902_practice_7.jpg)
+
+```Octave
+# Solving a system of linear equations
+❯❯ A=[1 2 1; 3 8 1; 0 4 1]
+A =
+   1   2   1
+   3   8   1
+   0   4   1
+
+❯❯ b=[2;12;2]
+b =
+    2
+   12
+    2
+
+❯❯ x=A\b
+x =
+   2
+   1
+  -2
+```
+
 
